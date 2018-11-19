@@ -5,8 +5,14 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; line-height: 15px; padding: 5%;
 }
+/*.full{display: flex; flex-direction: column;}*/
+.digits{
+  display: flex; font-size: 300%;
+}
+
+.txt{word-spacing: 20px; padding: 10px; color: grey;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
